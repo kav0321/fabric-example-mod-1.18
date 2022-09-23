@@ -6,7 +6,7 @@
   "name": "Soul Mod",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "Kav"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.kav.soul.Soul"
+    ],
+    "client": [
+      "net.kav.soul.SoulClient"
     ]
   },
   "mixins": [
